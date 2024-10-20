@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "We work closely with clients and keep communication clear.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "We are very flexible with time zone communications",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Our tech knowledege",
+    description: "Our team constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently improvising ourselves and learning new skills",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -67,32 +67,34 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
+
+
 ];
 
 export const projects = [
   {
     id: 1,
     title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Explore the wonders of our solar system",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "LNMIIT log-in page",
+    des: "Takes login details and send data to backend and transfer user to lnmiit website.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "192.168.140.92:8080",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "First Aid Box",
+    des: "In Standard III, our team made a FirstAid box with all essential items.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "192.168.140.92:8080",
   },
   {
     id: 4,
@@ -107,33 +109,34 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Binoding with Team OnlyFriends was an absolute binod pleasure. Binod binod binod binod binod binod binod binod.",
+    name: "BINOD THARU",
+    title: "Director of Binodian Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Yeah, so these web developer guys? Fucking amazing. I asked them to build me a site for Griffin’s Gravy Donuts—don’t ask—and BAM, they made it look awesome. Works on my phone, my tablet, even that fridge with a screen. I broke the site once trying to upload a GIF of me doing the worm, but they fixed it faster than I could open a beer. These guys? Total wizards. 10/10, would break the site again!",
+    name: "Peter Griffin",
+    title: "Director of Griffin Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "When you realize your portfolio website is due tomorrow...",
+    name: "Xavier",
+    title: "Developer of IIT Kanpur  ~Om Prakash",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Well, well, the web developers actually managed to impress me. Shocking, I know. They built my site for Stewie’s World Domination Plans—and, gasp, it’s perfect. Fast, sleek, and works on my phone while I’m plotting global conquest in my playpen. I tried to break it just to mess with them, but they fixed it instantly. Clearly, these peasants know what they’re doing. Bravo, I suppose.",
+    name: "Stewie Griffin",
+    title: "Stewie's World Domination Enterprises",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Just visited Team OnlyFriends’s portfolio website, and I must say, it was a refreshing experience! Unlike that recharge scammer, this portfolio is legit.",
+    name: "Angel Priya",
+    image: "/btc.jpg", // Replace with actual image path
+    title: "Babu recharge karwado please...",
   },
 ];
 
@@ -173,8 +176,8 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer Student",
+    desc: "Assisted in the development of 'Engineers-making Factory' using JEE.js, enhancing Tension and stress.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },

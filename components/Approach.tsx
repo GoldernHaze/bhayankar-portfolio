@@ -28,8 +28,8 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
+          des="Once we agree on the plan, We cue my lofi playlist and dive into
+          coding. From initial sketches to polished code, Our team will keep you updated
           every step of the way."
         >
           <CanvasRevealEffect
@@ -51,7 +51,7 @@ const Approach = () => {
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
           des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
+          Our team will translate everything into functional code, building your website
           from the ground up."
         >
           <CanvasRevealEffect
